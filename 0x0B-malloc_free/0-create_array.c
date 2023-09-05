@@ -6,7 +6,7 @@
  * @c: character to initialize
  * Return: pointer to the array (Success), NULL (Error)
 */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *m = malloc(size);
 
