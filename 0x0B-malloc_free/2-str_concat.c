@@ -1,12 +1,13 @@
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * *str_concat - function that concatenates two strings
- * @s1: string number1
- * @s2: string number2
- * Return : pointer of string (success), NULL (error)
-*/
-
+ * *str_concat - concatenates two strings
+ * @s1: string to concatenate
+ * @s2: other string to concatenate
+ *
+ * Return: pointer to the new string created (Success), or NULL (Error)
+ */
 char *str_concat(char *s1, char *s2)
 {
 	char *s3;
